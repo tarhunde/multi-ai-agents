@@ -118,6 +118,6 @@ services:
     entrypoint: /bin/sh
     command:
       - "-c"
-      - "sleep 10; OLLAMA_HOST=ollama:11434 ollama pull llama3.1; OLLAMA_HOST=ollama:11434 ollama pull nomic-embed-text"
+      - "sleep 10; OLLAMA_HOST=ollama:11434 ollama pull nemotron-mini; OLLAMA_HOST=ollama:11434 ollama pull nomic-embed-text"
     depends_on:
       - ollama
